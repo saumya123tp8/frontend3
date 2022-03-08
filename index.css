@@ -6,8 +6,8 @@
 display: flex;
 justify-content: center;
 background-color: hsl(233, 47%, 7%);
-padding-top: 95px;
-padding-bottom: 95px;
+padding-bottom:86px;
+padding-top:86px;
 /* height: 100%; */
 }
 .container{
@@ -39,7 +39,7 @@ background-color: hsl(244, 38%, 16%);
     /* justify-content: center; */
     /* margin: 0 auto; */
     padding-right: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 37px;
 }
 .text h2{
     width:96%;
@@ -62,7 +62,7 @@ p{
 h2:hover{
     color: hsl(277, 64%, 61%);
 }
-@media (min-width:1000px){
+@media (max-width:1440px) and (min-width:430px){
     
     .container{
         display: flex;
@@ -80,5 +80,8 @@ h2:hover{
         border-bottom-right-radius: 20px;
         border-top-right-radius: 20px;
         height: 370px;
+    }
+    .container{
+        /* padding: 100px; */
     }
 }
